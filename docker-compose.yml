@@ -1,0 +1,32 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - ./docker/nginx:/etc/nginx/conf.d
+      - .:/var/www
+      - ./docker/nginx/logs:/var/log/nginx
+    links:
+      - php
+
+  php:
+    build: ./docker/php
+    links:
+      - mysql:mysql
+    volumes:
+      - .:/var/www
+
+  mysql:
+    image: mysql:latest
+    ports:
+      - 33069:3306
+    volumes:
+      - ./docker/database/blog:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: blog
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      SERVICE_NAME: mysql
