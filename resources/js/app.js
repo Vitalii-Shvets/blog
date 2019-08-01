@@ -6,6 +6,8 @@
 
 require('./bootstrap');
 
+import AjaxComment from './blog/ajaxComments';
+const ajaxComment = new AjaxComment('#commentForm');
 window.Vue = require('vue');
 
 /**

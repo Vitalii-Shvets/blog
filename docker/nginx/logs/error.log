@@ -1,0 +1,14 @@
+2019/07/25 20:44:01 [alert] 1#1: worker process 7 exited on signal 9
+2019/07/27 23:22:17 [alert] 1#1: worker process 7 exited on signal 9
+2019/07/28 16:05:22 [alert] 1#1: worker process 6 exited on signal 9
+2019/07/29 00:21:41 [alert] 1#1: worker process 6 exited on signal 9
+2019/07/30 14:55:43 [error] 6#6: *11 client intended to send too large body: 1975534 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:03:05 [error] 6#6: *37 client intended to send too large body: 2164840 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:03:27 [error] 6#6: *42 client intended to send too large body: 2164840 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:03:40 [error] 6#6: *43 client intended to send too large body: 3362459 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:30:02 [error] 6#6: *79 client intended to send too large body: 2350883 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:36:45 [error] 6#6: *99 client intended to send too large body: 1489953 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 15:37:16 [error] 6#6: *101 client intended to send too large body: 2587097 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 16:42:11 [error] 7#7: *2 client intended to send too large body: 2638814 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/30 17:10:04 [error] 7#7: *25 client intended to send too large body: 2164906 bytes, client: 172.18.0.1, server: , request: "POST /blog/posts HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/blog/posts/create"
+2019/07/31 02:26:07 [alert] 1#1: worker process 7 exited on signal 9
